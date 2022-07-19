@@ -24,6 +24,12 @@ $estilobtn:(
 }
 
 
+.btnproductos{
+    @extend .btn;
+    height:60px;
+    width: 200px;
+    font-size: medium;
 
+}
 
 

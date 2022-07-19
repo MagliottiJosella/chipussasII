@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 /* seccion import*/
-.btn {
+.btn, .btnproductos {
   padding: 5px;
   color: #eae0eb;
   border-radius: 5px;
@@ -12,6 +12,11 @@
   width: 150px;
   height: 40px;
   margin: 10px; }
+
+.btnproductos {
+  height: 60px;
+  width: 200px;
+  font-size: medium; }
 
 .container {
   display: grid;
