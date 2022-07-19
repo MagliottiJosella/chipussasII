@@ -1,0 +1,23 @@
+$estilobtn:(  
+      espacio:5px,
+      colordefondo:$colorboton,
+      radioboton: 5px,
+      colorletra:$colorletraboton,
+      largo:150px,
+      margen:5px,
+      
+);
+
+.btn{
+    padding:map-get($estilobtn , espacio);
+    color:map-get($estilobtn , colorletra);
+    border-radius:map-get($estilobtn , radioboton);
+    background-color: map-get($estilobtn , colordefondo );
+    width: map-get($estilobtn ,  largo );
+    margin:map-get($estilobtn , margen );
+    
+
+}
+
+
+

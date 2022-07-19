@@ -4,6 +4,14 @@
   box-sizing: border-box; }
 
 /* seccion import*/
+.btn {
+  padding: 5px;
+  color: #eae0eb;
+  border-radius: 5px;
+  background-color: #530c57;
+  width: 150px;
+  margin: 5px; }
+
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -66,10 +74,7 @@
   justify-content: center;
   height: 200px; }
   .cajaPortada h1 {
-    text-align: center;
-    font-size: 60px;
-    font-style: oblique;
-    color: black; }
+    font-size: 60px; }
 
 .main {
   grid-area: main; }
@@ -122,12 +127,6 @@
       text-align: center;
       font-size: 20px;
       margin: 10px; }
-  .tarjetasnovedades .btn {
-    background-color: #4e0072;
-    padding: 2%;
-    margin: 10px;
-    color: aliceblue;
-    border: 0ch; }
 
 .headernosotros {
   display: flex;
@@ -175,15 +174,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; }
-  .headercontacto h1 {
-    background-image: url(../img/portada4.png);
-    background-size: contain;
-    text-align: center;
-    width: 100%;
-    padding: 30px;
-    font-size: 30px;
-    font-style: oblique; }
+  justify-content: center;
+  background-image: url(../img/portada4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px; }
 
 .infocontacto {
   display: flex;
@@ -233,13 +228,12 @@
     font-size: 15px;
     font-style: oblique;
     padding: 20px; }
-
-.Bloquecondiciones_acepto {
-  text-align: center;
-  font-weight: 900;
-  font-size: 20px;
-  font-style: oblique;
-  padding: 10px; }
+  .Bloquecondiciones .Bloquecondiciones_acepto {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: oblique;
+    padding: 10px; }
 
 .bloqueeleccion {
   display: flex;
@@ -254,21 +248,18 @@
     font-style: oblique;
     padding: 20px;
     color: black; }
-
-.bloqueeleccionTituloProductos {
-  text-align: center;
-  font-size: 18px;
-  margin: 10px; }
-
-.bloqueeleccionTituloCantidades {
-  text-align: center;
-  font-size: 18x;
-  margin: 10px; }
-
-.bloqueeleccion_email {
-  text-align: center;
-  font-size: 13px;
-  margin: 10px; }
+  .bloqueeleccion .bloqueeleccionTituloProductos {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px; }
+  .bloqueeleccion .bloqueeleccionTituloCantidades {
+    text-align: center;
+    font-size: 18x;
+    margin: 10px; }
+  .bloqueeleccion .bloqueeleccion_email {
+    text-align: center;
+    font-size: 13px;
+    margin: 10px; }
 
 .headerproductos {
   display: flex;
@@ -516,12 +507,6 @@
         text-align: center;
         font-size: 20px;
         margin: 10px; }
-    .tarjetasnovedades .btn {
-      background-color: #4e0072;
-      padding: 2%;
-      margin: 10px;
-      color: aliceblue;
-      border: 0ch; }
   /*--------------------------pagina NOSOTROS para escritorio------------------------------*/
   .headernosotros {
     padding-top: 10px;

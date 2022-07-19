@@ -44,19 +44,20 @@
         font-style: oblique;
         padding: 20px;
     }
+    .Bloquecondiciones_acepto{
+
+        text-align: center;
+        font-weight: 900;
+        font-size: 20px;
+        font-style: oblique;
+        padding: 10px;
+    
+    }
 
 }
 
 
-.Bloquecondiciones_acepto{
 
-    text-align: center;
-    font-weight: 900;
-    font-size: 20px;
-    font-style: oblique;
-    padding: 10px;
-
-}
 
 
 .bloqueeleccion{
@@ -75,33 +76,36 @@
         color:$colordeletra ;
     
     }
-  
-   
-}
+    .bloqueeleccionTituloProductos{
 
-
-.bloqueeleccionTituloProductos{
-
-    text-align: center;
-    font-size: 18px;
-    margin: 10px;
-
-}
-
-.bloqueeleccionTituloCantidades{
+        text-align: center;
+        font-size: 18px;
+        margin: 10px;
+    
+    }
+    .bloqueeleccionTituloCantidades{
     text-align: center;
     font-size: 18x;
     margin: 10px;
 
-}
-
-.bloqueeleccion_email{
+   }
+  .bloqueeleccion_email{
     text-align: center;
     font-size: 13px;
     margin:10px;
 
 
+   }
+
+  
+   
 }
+
+
+
+
+
+
 
 
 
