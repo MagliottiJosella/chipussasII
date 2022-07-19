@@ -10,7 +10,8 @@
   border-radius: 5px;
   background-color: #530c57;
   width: 150px;
-  margin: 5px; }
+  height: 40px;
+  margin: 10px; }
 
 .container {
   display: grid;

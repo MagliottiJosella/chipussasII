@@ -3,21 +3,27 @@ $estilobtn:(
       colordefondo:$colorboton,
       radioboton: 5px,
       colorletra:$colorletraboton,
-      largo:150px,
-      margen:5px,
+      margen:10px,
       
 );
+@mixin botonmedida($anchoportada,$largoportada) {
+    width: $largoportada;
+    height: $anchoportada;
+    
+}
 
 .btn{
     padding:map-get($estilobtn , espacio);
     color:map-get($estilobtn , colorletra);
     border-radius:map-get($estilobtn , radioboton);
     background-color: map-get($estilobtn , colordefondo );
-    width: map-get($estilobtn ,  largo );
-    margin:map-get($estilobtn , margen );
-    
+    @include botonmedida(40px,150px);
+    margin: map-get($estilobtn ,margen);
+
 
 }
+
+
 
 
 
