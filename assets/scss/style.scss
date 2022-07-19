@@ -1,0 +1,623 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+  
+
+}
+
+
+
+/* seccion import*/
+
+@import"_variables";
+@import"_margin";
+@import"_container";
+@import"_navbar";
+@import "_index";
+@import"_nosotros";
+@import"_contactos";
+@import"mayorista";
+@import"productos";
+@import"_footer";
+
+
+/*---------------------------------------------- TODO PARA ESCRITORIO----------------------------------------------------------*/
+
+
+@media(min-width:768px){
+
+
+
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto auto auto 60px;
+        grid-template-areas: "navbar navbar navbar navbar"
+                             "header header header header"
+                             "main main main main"
+                             "footer footer footer footer" ;}
+
+     
+
+    .navbar{
+
+        grid-area: navbar;
+        background-color:$colordefondo;
+        z-index: 20;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        align-items:center;
+        justify-content: space-between;
+        ul{
+            list-style:none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            li{
+                display: inline-block;
+                padding: 10px;
+                font-size: 20px;
+                font-size:x-large;
+                
+                
+            }
+          
+          
+        }
+    }     
+
+
+  
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        img{
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+            
+        
+        }
+    }
+    
+  
+    
+    .redes{
+        display: flex;
+        flex-direction:row;
+        margin-right: 10px;
+        img{
+            width: 30px;
+            height: 30px;
+            margin-right: 20px;
+            display: inline-block;
+        
+        }
+    
+    }
+    
+   
+
+    
+    
+    /*------------------seccion inicio para escritorio --------------------*/
+
+
+
+    .cajaPortada{
+        background-image: url(../img/portada4.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+
+
+        
+         
+     }    
+    
+    .tarjetasnovedades{
+        display: flex;
+        flex-direction: row; /*hace que las imagenes esten una al lado de la otra*/
+        align-items: center;
+        justify-content: center;
+        background-color:$colordefondo;
+        padding-top:30px;
+        padding-block-end: 30px;
+        .tarjetaNovedad1{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            align-items: center;
+            border: 2px solid rgb(78, 0, 114);
+            margin: 30px;
+            .tarjetaNovedad1_img{
+                width: 90%;
+                text-align: center;
+                margin: 20px;
+            }
+            .tarjetaNovedad1_titulo{
+                text-align: center;
+                font-size: 20px;
+                margin: 10px;
+            }
+        }
+        .tarjetaNovedad2{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            align-items: center;
+            border: 2px solid rgb(78, 0, 114);
+            margin: 30px;
+            .tarjetaNovedad2_img{
+                width: 90%;
+                text-align: center;
+                margin: 20px;
+            }
+            
+            .tarjetaNovedad2_titulo{
+                text-align: center;
+                font-size: 20px;
+                margin: 10px;
+            }
+             
+        }
+        .btn{
+            background-color:rgb(78, 0, 114) ;
+            padding: 2%;
+            margin:10px;
+            color: aliceblue;
+            border: 0ch;
+        
+        }
+        
+        
+        
+        
+    
+    }
+    
+    
+    
+    
+   
+
+    
+  
+    
+
+    
+
+    
+
+   /*--------------------------pagina NOSOTROS para escritorio------------------------------*/ 
+
+
+
+   .headernosotros{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $colordefondo;
+    h1{
+        background-image: url(../img/portada4.png);
+        background-size:contain;
+        width: 100%;
+        text-align: center;
+        font-style: oblique;
+        font-size: 40px;
+        height: 200px;
+        padding-top: 60px;
+    }
+
+    
+}
+
+
+
+
+.mainnosotros{
+    background-color:$colordefondo;
+    background-size:contain;
+    width: 100%;
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+    p{    font-size: 20px;
+        padding: 80px;
+        margin-block-end: 20px;
+        text-align: center;
+        background-color:$colordefondo ;
+    }
+    video{
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+        margin-block-end: 20px;
+        background-image: url(../img/portada4.png);
+    }
+   
+    
+
+}
+
+.parrafo{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-block-end: 80px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+
+/*-------------------------------------- pagina CONTACTO para escritrio--------------------------*/
+
+.headercontacto{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    h1{
+        background-image: url(../img/portada4.png);
+        background-size:contain;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        padding-top: 60px;
+        font-size: 60px;
+        font-style: oblique;
+    
+    }
+    
+    
+}
+
+
+
+
+.infocontacto{
+    display: flex;
+    flex-direction:column;
+    background-color:$colordefondo;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    h4{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-block-end: 50px;
+        padding-right: 50px;
+        
+    }
+
+}
+
+
+
+
+
+
+   /*--------------------- pagina PRODUCTOS para escritorio--------------------------*/
+   
+   .headerproductos{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    h1{     background-image: url(../img/portada4.png);
+        background-size:contain;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        padding-top: 60px;
+        font-size: 60px;
+        font-style: oblique;
+    }
+
+}
+
+
+.productoscuadros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:$colordefondo;
+    padding: 50px;
+
+}
+
+
+
+.productosvarios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:$colordefondo;
+    padding: 50px;
+
+
+}
+
+.cuadro1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px; ;
+    height: 500px; ;
+    margin: 50px;
+    border: 2px solid rgb(78, 0, 114);
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    h4{
+        text-align: center;
+        font-size: 30px;
+        color:rgb(78, 0, 114) ;
+        padding: 5%;
+        
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+        color:$colordeletra;
+        padding: 5%;
+    
+    }
+    
+}
+
+
+
+
+.cuadro2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px; ;
+    height: 500px; ;
+    margin: 50px;
+    border: 2px solid rgb(78, 0, 114);
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    h4{
+        text-align: center;
+        font-size: 30px;
+        color:rgb(78, 0, 114) ;
+        padding: 5%;
+        
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+        color:$colordeletra;
+        padding: 5%;
+    
+    }
+    
+}
+
+
+
+
+
+.varios1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px; ;
+    height: 500px; ;
+    margin: 50px;
+    border: 2px solid rgb(78, 0, 114);
+    img{
+        width: 300px;
+        height: 300px;
+    
+    }
+    h4{
+        text-align: center;
+        font-size: 30px;
+        color:$colordeletra;
+        padding: 5%;
+        
+    }
+    p{
+    text-align: center;
+    font-size: 15px;
+    color:$colordeletra;
+    padding: 5%;
+
+    }
+
+}
+
+.varios2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px; ;
+    height: 500px; ;
+    margin: 50px;
+    border: 2px solid rgb(78, 0, 114);
+    img{
+        width: 300px;
+        height: 300px;
+    
+    }
+    h4{
+        text-align: center;
+        font-size: 30px;
+        color:$colordeletra ;
+        padding: 5%;
+        
+    
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+        color:$colordeletra;
+        padding: 5%;
+    
+    }
+    
+}
+
+
+
+.Productos{
+
+
+    text-align:left;
+    font-size: 18px;
+    color:rgb(78, 0, 114) ;
+    padding-top: 5%;
+    padding-left: 5%;
+    background-color: $colordefondo;
+    height: 100px;
+
+
+}
+
+.Productos2{
+
+    text-align:left;
+    font-size: 18px;
+    color:rgb(78, 0, 114) ;
+    padding-top: 5%;
+    padding-left: 5%;
+    background-color:$colordefondo;
+
+
+}
+
+
+/*------------------------------------------ MAYORISTA PARA ESCRITORIO--------------------------------*/
+
+.Bloquecondiciones{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    background-color: $colordefondo;
+    height: 300px;
+    border: 2px solid rgb(78, 0, 114);
+    h4{
+            text-align: center;
+            font-size: 25px;
+            font-style: oblique;
+            color: $colordeletra;     
+    }
+
+    h6{
+        text-align: center;
+        font-size: 10px;
+        font-style: oblique;
+        padding: 20px;
+    }   
+    .Bloquecondiciones_acepto{
+
+        text-align: center;
+        font-weight: 900;
+        font-size: 25px;
+        font-style: oblique;
+        padding: 20px;
+    
+    }
+    
+     
+
+}
+
+
+.bloqueeleccion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color:$colordefondo;
+    height: 400px;
+
+    h4{
+        text-align: center;
+        font-weight: 900;
+        font-size:20px;
+        font-style: oblique;
+        color:$colordeletra;
+    
+    }
+    .bloqueeleccionTituloProductos{
+
+        text-align: center;
+        font-size: 25px;
+        margin: 10px;
+    
+    }
+    .bloqueeleccionTituloCantidades{
+        text-align: center;
+        font-size: 20px;
+        margin: 10px;
+    
+    }
+    .bloqueeleccion_email{
+        text-align: center;
+        font-size: 10x;
+        margin:10px;
+    
+    
+    }
+    
+   
+}
+
+
+
+
+
+
+
+.headermayorista{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:$colordefondo;
+
+    h1{
+        background-image: url(../img/portada4.png);
+        background-size:contain;
+        text-align: center;
+        width: 100%;    
+        font-size: 60px;
+        font-style: oblique;
+    }
+    
+}
+
+
+
+}
+

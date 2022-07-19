@@ -1,0 +1,26 @@
+.footer{
+    grid-area: footer;
+}
+
+.piedepagina{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-image: url(../img/portada4.png);
+    height: 60px;
+
+}
+
+.redesPiedepagina img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.Saludos{
+    font-style: oblique;
+    font-size: 10px;
+    margin-left: 10px;
+
+}

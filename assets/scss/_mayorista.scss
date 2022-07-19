@@ -1,0 +1,107 @@
+.headermayorista{   
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    background-color: $colordefondo;
+    height: 200px;
+    padding-top:50px ;
+    
+    h1{
+        background-image: url(../img/portada4.png);
+        background-size:contain;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        font-size: 40px;
+        font-style: oblique;
+        padding-top: 20px;
+    }
+
+}
+
+
+
+.Bloquecondiciones{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: $colordefondo;
+    padding-top: 20px;
+
+    h4{
+        text-align: center;
+        font-size: 25px;
+        font-style: oblique;
+        padding: 50px;
+        color: $colordeletra;
+    }
+    h6{
+        text-align: center;
+        font-size: 15px;
+        font-style: oblique;
+        padding: 20px;
+    }
+
+}
+
+
+.Bloquecondiciones_acepto{
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: oblique;
+    padding: 10px;
+
+}
+
+
+.bloqueeleccion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: $colordefondo;
+
+    h4{
+        text-align: center;
+        font-weight: 900;
+        font-size: 25px;
+        font-style: oblique;
+        padding: 20px;
+        color:$colordeletra ;
+    
+    }
+  
+   
+}
+
+
+.bloqueeleccionTituloProductos{
+
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+
+}
+
+.bloqueeleccionTituloCantidades{
+    text-align: center;
+    font-size: 18x;
+    margin: 10px;
+
+}
+
+.bloqueeleccion_email{
+    text-align: center;
+    font-size: 13px;
+    margin:10px;
+
+
+}
+
+
+

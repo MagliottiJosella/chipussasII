@@ -1,0 +1,65 @@
+
+.headernosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:$colordefondo;
+    padding-top: 20%;
+    height: 200px;
+
+    h1{
+        background-image: url(../img/portada4.png);
+        background-size:contain;
+        width: 100%;
+        height: 100px;
+        text-align:center;
+        font-style: oblique;
+        font-size: 30px;
+        padding-top: 20px;
+        
+    }
+    
+
+    
+}
+
+
+.mainnosotros{
+    background-color: $colordefondo;
+    background-size:contain;
+    width: 100%;  
+
+    p{
+
+        font-size: 12px;
+        padding: 100px 80px 80px 80px;
+        margin-block-end: 20px;
+        text-align: center;
+        background-color:$colordefondo ;
+    
+    }
+    video{
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        margin-block-end: 20px;
+        background-image: url(../img/portada4.png);
+    
+    }  
+
+}
+
+
+/* este parrafo no sabia como agregarlo dentro del mainnosotros, de todos modos no me toma el estilo que le ponog. No encuentro el error*/
+.parrafo{
+    margin:0%;
+    font-size: 15px;
+    padding-block-end: 200px;
+    text-align: center;
+   
+
+}
+
+
+
