@@ -3,7 +3,7 @@
 }
 
 .cajaPortada{
-   background-image: url(../img/portada4.png);
+   background-image: $fondoportada;
    background-size:cover;
    background-repeat: no-repeat;
    display: flex;

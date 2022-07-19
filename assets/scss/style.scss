@@ -111,7 +111,7 @@
 
 
     .cajaPortada{
-        background-image: url(../img/portada4.png);
+        background-image:  $fondoportada;
         background-size:cover;
         background-repeat: no-repeat;
         display: flex;
@@ -203,7 +203,7 @@
     justify-content: center;
     background-color: $colordefondo;
     h1{
-        background-image: url(../img/portada4.png);
+        background-image: $fondoportada;
         background-size:contain;
         width: 100%;
         text-align: center;
@@ -228,7 +228,6 @@
     font-size: 40px;
     p{    font-size: 20px;
         padding: 80px;
-        margin-block-end: 20px;
         text-align: center;
         background-color:$colordefondo ;
     }
@@ -261,7 +260,7 @@
     align-items: center;
     justify-content: center;
     h1{
-        background-image: url(../img/portada4.png);
+        background-image:$fondoportada;
         background-size:contain;
         text-align: center;
         width: 100%;
@@ -310,7 +309,7 @@
     align-items: center;
     justify-content: center;
     
-    h1{     background-image: url(../img/portada4.png);
+    h1{     background-image: $fondoportada;
         background-size:contain;
         text-align: center;
         width: 100%;
@@ -597,7 +596,7 @@
     background-color:$colordefondo;
 
     h1{
-        background-image: url(../img/portada4.png);
+        background-image: $fondoportada;
         background-size:contain;
         text-align: center;
         width: 100%;    
