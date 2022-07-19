@@ -155,19 +155,18 @@
 .mainnosotros {
   background-color: #edeccb;
   background-size: contain;
-  width: 100%; }
+  width: 100%;
+  justify-content: center; }
   .mainnosotros p {
     font-size: 12px;
     padding: 100px 80px 80px 80px;
     margin-block-end: 20px;
     text-align: center;
     background-color: #edeccb; }
-  .mainnosotros video {
-    width: 100%;
-    height: 200px;
+  .mainnosotros .imagennosotros {
     margin-top: 20px;
     margin-block-end: 20px;
-    background-image: url(../img/portada4.png); }
+    padding-right: 20px; }
 
 /* este parrafo no sabia como agregarlo dentro del mainnosotros, de todos modos no me toma el estilo que le ponog. No encuentro el error*/
 .parrafo {
@@ -543,12 +542,9 @@
       margin-block-end: 20px;
       text-align: center;
       background-color: #edeccb; }
-    .mainnosotros video {
-      width: 100%;
-      height: 500px;
+    .mainnosotros img {
       margin-top: 20px;
-      margin-block-end: 20px;
-      background-image: url(../img/portada4.png); }
+      margin-block-end: 20px; }
   .parrafo {
     font-size: 20px;
     padding-top: 10px;

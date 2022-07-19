@@ -29,6 +29,8 @@
     background-color: $colordefondo;
     background-size:contain;
     width: 100%;  
+    justify-content: center;
+  
 
     p{
 
@@ -39,12 +41,12 @@
         background-color:$colordefondo ;
     
     }
-    video{
-        width: 100%;
-        height: 200px;
+   .imagennosotros{
+        
         margin-top: 20px;
         margin-block-end: 20px;
-        background-image: url(../img/portada4.png);
+        padding-right: 20px;
+      
     
     }  
 
